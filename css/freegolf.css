@@ -1,0 +1,8 @@
+body {
+	overflow: hidden;
+}
+
+#screen>canvas {
+	/* for the bug of 3px-bottom-line between #screen and canvas */
+	margin-bottom: -3px;
+}
